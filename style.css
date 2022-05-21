@@ -17,7 +17,6 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-
 }
 
 .first-screen {
@@ -228,7 +227,7 @@ body {
 }
 
 .app-img {
-    width: 23.68vw;
+    width: 23.6805556vw;
     max-width: 341px;
 }
 
@@ -1252,12 +1251,12 @@ text-align: left;
     }
 
     .orders-section__container {
-        width: 306px;
-        flex: 0 0 100%;   
+        width: 306px;   
         justify-content: center;  
-        padding-left: 33vw; 
+        margin: auto; 
         padding-top: 0;
-        align-items: center;
+        padding-left: 0;
+        
       
     }
   
@@ -1445,10 +1444,18 @@ text-align: left;
         margin: auto;
     }
 
+    .footer-nav {
+        width: 100%;
+    }
+
     
     .footer-menu__link {
         font-size: 6px;
         margin-left: 0px;
         width: 70px;
+    }
+
+    .footer-logo__img {
+        margin-left: 33vw;
     }
 }
